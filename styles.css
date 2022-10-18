@@ -1,0 +1,42 @@
+*  {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: #2B2C2C;
+text-decoration: none;
+color: #ffffff;
+
+}
+img {
+    height: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 20px 100px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+li {
+font-family:"Poppins", sans-serif;
+font-weight: 500;
+font-size: 14px;
+padding: 14px 26px;
+
+
+
+
+}
+
+
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    
+    
+}
