@@ -1,61 +1,95 @@
-*  {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-background-color: #2B2C2C;
-text-decoration: none;
-color: #ffffff;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #2b2c2c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .container {
-    font-family:"Poppins", sans-serif;
-    font-weight: 500;
-
-}
-img {
-    height: 30px;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    margin: 20px 130px;
-}
-ul {
-    display: flex;
-    justify-content: space-between;
-    
-}
-li {
-
-font-size: 14px;
-padding: 14px 26px;
-
-
-
-
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-
-.nav__links {
-    list-style: none;
-}
-.nav__links li {
-    
-    
+.block {
+  height: 100vh;
+  position: relative;
 }
 
-.heroImg {
-    height: max-content;
-    width: max-content;
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20vh;
+  position: relative;
+  z-index: 1;
 }
-.heroBlock {
-    display: flex;
-    justify-content: space-between;
-    margin: 120px 130px;
-    
-}
-.block__h1 {
 
+.hero__img {
+  height: calc(6.5 / 8 * 100vh);
+  width: auto;
 }
+
+.hero h4 {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.hero p {
+  max-width: 30ch;
+  color: #cccccc;
+}
+
+.hero span {
+  color: #feb633;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0px;
+}
+
+.header__logo {
+  height: 30px;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__nav a {
+  font-size: 14px;
+  padding: 14px 26px;
+}
+/*# sourceMappingURL=styles.css.map */

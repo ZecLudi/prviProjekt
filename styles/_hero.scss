@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20vh;
+  position: relative;
+  z-index: 1;
+
+  &__img {
+    height: calc(6.5 / 8 * 100vh);
+    width: auto;
+  }
+  h4 {
+    font-size: 14px;
+    color: #cccccc;
+  }
+  p {
+    max-width: 30ch;
+    color: #cccccc;
+  }
+  span {
+    color: #feb633;
+  }
+}
